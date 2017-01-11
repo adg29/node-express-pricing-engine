@@ -1,0 +1,19 @@
+{
+  "name": "node-express-insurance-pricing",
+  "version": "0.0.1",
+  "description": "Pricing engine for insurance policies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adg29/node-express-pricing-engine.git"
+  },
+  "author": "Alan David Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adg29/node-express-pricing-engine/issues"
+  },
+  "homepage": "https://github.com/adg29/node-express-pricing-engine#readme"
+}
