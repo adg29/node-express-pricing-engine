@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/adg29/node-express-pricing-engine/issues"
   },
-  "homepage": "https://github.com/adg29/node-express-pricing-engine#readme"
+  "homepage": "https://github.com/adg29/node-express-pricing-engine#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }
