@@ -35,3 +35,39 @@ Jan's policy is estimated at $154.25
 Brad's policy is estimated at $100
 Petr is not eligible for a life insurance policy
 ```
+
+## Objects
+
+## Policy 
+
+```
+var Policy = function(name, baseCost, factors) { ... }
+```
+
+### Policy Manifest
+Initial stub describing the `factors` object to be passed into a newly instatiated Policy object:
+
+```
+				{
+					eligibilityFactors : [
+						{ name: 'age', threshold: 18 }
+					],
+					pricingFactors: {
+						dollar:
+						[
+							{ name: 'age', value: 20, rules: { interval: 5, baseline: 18 } },
+							{ name: 'gender', value: 12, rules: { equals: 'female' } }
+						],
+						percentage:
+						[
+							{ name: 'geo', value: -.05, rules: { region: 'East Coast' } },
+							{ name: 'health_condition', value: .01, rules: { equals: 'Allergies' } },
+							{ name: 'health_condition', value: .06, rules: { equals: 'Sleep Apnea' } },
+							{ name: 'health_condition', value: .17, rules: { equals: 'Heart Disease' } },
+							{ name: 'health_condition', value: .08, rules: { equals: 'High Cholesterol' } },
+							{ name: 'health_condition', value: .04, rules: { equals: 'Asthma' } }
+						]
+					}	
+				}	
+
+```
